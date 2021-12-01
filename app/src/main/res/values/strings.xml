@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ScheduleApp</string>
+    <string name="time">Время</string>
+    <string name="subject">Предмет</string>
+    <string name="place">Место</string>
+    <string name="educator">Преподаватель</string>
+    <string name="weekday">День недели</string>
+    <string name="order">Порядок</string>
+</resources>
