@@ -3,11 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/RRGayfutdinov/AndroidStudioProjects/ScheduleApp/app/src/main/res/drawable/baseline_assignment_ind_24.xml" value="0.3828125" />
+        <entry key="..\:/Users/RRGayfutdinov/AndroidStudioProjects/ScheduleApp/app/src/main/res/drawable/baseline_wysiwyg_24.xml" value="0.3828125" />
         <entry key="..\:/Users/RRGayfutdinov/AndroidStudioProjects/ScheduleApp/app/src/main/res/layout/activity_login.xml" value="0.2957427536231884" />
         <entry key="..\:/Users/RRGayfutdinov/AndroidStudioProjects/ScheduleApp/app/src/main/res/layout/activity_main.xml" value="0.2957427536231884" />
         <entry key="..\:/Users/RRGayfutdinov/AndroidStudioProjects/ScheduleApp/app/src/main/res/layout/fragment_menu.xml" value="0.2957427536231884" />
         <entry key="..\:/Users/RRGayfutdinov/AndroidStudioProjects/ScheduleApp/app/src/main/res/layout/fragment_schedule.xml" value="0.25" />
         <entry key="..\:/Users/RRGayfutdinov/AndroidStudioProjects/ScheduleApp/app/src/main/res/layout/item_to_schedule.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/RRGayfutdinov/AndroidStudioProjects/ScheduleApp/app/src/main/res/menu/bottom_nav_menu.xml" value="0.36666666666666664" />
       </map>
     </option>
   </component>
