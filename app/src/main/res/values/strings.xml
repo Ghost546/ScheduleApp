@@ -8,4 +8,8 @@
     <string name="educator">Преподаватель</string>
     <string name="weekday">День недели</string>
     <string name="order">Порядок</string>
+    <string name="guest">Гость</string>
+    <string name="password">Пароль</string>
+    <string name="login">Логин</string>
+    <string name="authorization">Вход</string>
 </resources>

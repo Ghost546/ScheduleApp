@@ -21,28 +21,8 @@ class MainActivity : AppCompatActivity() {
             R.id.scheduleFragment,
             R.id.menuFragment
         ))
-        val mOnNavigationItemSelectedListener = BottomNavigationView.OnNavigationItemSelectedListener{ menuItem ->
-            when (menuItem.itemId) {
-                R.id.scheduleFragment -> {
-                    val fragment = ScheduleFragment()
-                    supportFragmentManager.beginTransaction()
-                        .replace(R.id.container, fragment, fragment.javaClass.getSimpleName())
-                        .commit()
-                    return@OnNavigationItemSelectedListener true
-                }
-                R.id.menuFragment -> {
-                    val fragment = MenuFragment()
-                    supportFragmentManager.beginTransaction()
-                        .replace(R.id.container, fragment, fragment.javaClass.getSimpleName())
-                        .commit()
-                    return@OnNavigationItemSelectedListener true
-
-                }
-                else ->return@OnNavigationItemSelectedListener false
-            }
-        }
         setupActionBarWithNavController(navController, appBarConfiguration)
-        navView.setupWithNavController(navController)
+        NavigationUI.setupWithNavController(navView, navController)
     }
 }
 
