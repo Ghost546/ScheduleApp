@@ -5,6 +5,7 @@ import android.widget.TextView
 class ScheduleItem() {
     var isWeekDay: Boolean = false
     var weekdayID: String? = null
+    var weekdayIDForSort: Int? = null
     var weekday: String? = null
     var order: String? = null
     var timeID:String?=null
