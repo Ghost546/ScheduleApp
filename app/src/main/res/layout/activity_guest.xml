@@ -10,11 +10,12 @@
         android:id="@+id/schedule_recycler_view"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        tools:listitem="@layout/item_to_schedule"
+        tools:listitem="@layout/item_to_list_of_club"
         app:layoutManager="LinearLayoutManager"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        app:layout_constraintEnd_toEndOf="parent"
+        android:onClick="onClick"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

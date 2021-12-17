@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">ScheduleApp</string>
     <string name="schedule">Расписание</string>
-    <string name="menu">Меню</string>
+    <string name="profile">Профиль</string>
     <string name="time">Время</string>
     <string name="subject">Предмет</string>
     <string name="place">Место</string>
@@ -10,6 +10,6 @@
     <string name="order">Порядок</string>
     <string name="guest">Гость</string>
     <string name="password">Пароль</string>
-    <string name="login">Логин</string>
+    <string name="login">Почта</string>
     <string name="authorization">Вход</string>
 </resources>

@@ -7,7 +7,7 @@
         android:title="@string/schedule" />
 
     <item
-        android:id="@+id/menuFragment"
+        android:id="@+id/profileFragment"
         android:icon="@drawable/baseline_assignment_ind_24"
-        android:title="@string/menu" />
+        android:title="@string/profile" />
 </menu>

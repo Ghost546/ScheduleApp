@@ -1,10 +1,11 @@
-package com.example.scheduleapp
+package com.example.scheduleapp.schedule
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.scheduleapp.R
 
 class ScheduleRecyclerAdapter(private val scheduleList:List<ScheduleItem>) : RecyclerView.Adapter<ScheduleRecyclerAdapter.ScheduleViewHolder>() {
 
@@ -39,7 +40,7 @@ class ScheduleRecyclerAdapter(private val scheduleList:List<ScheduleItem>) : Rec
             holder.order.visibility = View.VISIBLE
             holder.order.text = scheduleList[position].order
             holder.time.visibility = View.VISIBLE
-            holder.time.text = scheduleList[position].time
+            holder.time.text = scheduleList[position].timeStart
             holder.subject.visibility = View.VISIBLE
             holder.subject.text = scheduleList[position].subject
             holder.place.visibility = View.VISIBLE

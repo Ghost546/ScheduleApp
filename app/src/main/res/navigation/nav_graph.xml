@@ -7,13 +7,20 @@
 
     <fragment
         android:id="@+id/scheduleFragment"
-        android:name="com.example.scheduleapp.ScheduleFragment"
+        android:name="com.example.scheduleapp.schedule.ScheduleFragment"
         android:label="ScheduleFragment"
         tools:layout="@layout/fragment_schedule" >
     </fragment>
     <fragment
-        android:id="@+id/menuFragment"
-        android:name="com.example.scheduleapp.MenuFragment"
-        android:label="MenuFragment"
-        tools:layout="@layout/fragment_menu"/>
+        android:id="@+id/profileFragment"
+        android:name="com.example.scheduleapp.profile.ProfileFragment"
+        android:label="ProfileFragment" >
+        <action
+            android:id="@+id/action_profileFragment_to_formForSignInAndOutOnClubFragment"
+            app:destination="@id/formForSignInAndOutOnClubFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/formForSignInAndOutOnClubFragment"
+        android:name="com.example.scheduleapp.FormForSignInAndOutOnClubFragment"
+        android:label="FormForSignInAndOutOnClubFragment" />
 </navigation>
